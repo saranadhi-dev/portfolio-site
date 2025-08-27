@@ -1,5 +1,5 @@
 import HeaderImg from '../assests/Images/profile.jpg';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 function Header() {
     return (
@@ -12,15 +12,15 @@ function Header() {
                             Software developer<br />
                         </h2>
                         <div style={{ marginLeft: '5px', display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '15px' }}>
-                            <a href={"https://github.com/saranadhi-dev"} aria-label="LinkedIn" target="_blank" >
+                            {/* <a href={"https://github.com/saranadhi-dev"} aria-label="LinkedIn" target="_blank" rel="noreferrer">
                                 <i className="bi bi-github" style={{ fontSize: '24px' }}></i>
-                            </a>
-                            <a href={"https://www.linkedin.com/in/saran-aadithyan-v-74228b1a2/"} aria-label="LinkedIn" target="_blank" >
+                            </a> */}
+                            <a href={"https://www.linkedin.com/in/saran-aadithyan-v-74228b1a2/"} aria-label="LinkedIn" target="_blank" rel="noreferrer" >
                                 <i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i>
                             </a>
                         </div>
                         <div style={{marginTop:"8px",display:"flex",flexDirection:"row",alignItems:'center',gap:"12px"}}>
-                            <Button className='shadow text-capitalize' variant='outline-primary'>Download Resume</Button>
+                            {/* <Button className='shadow text-capitalize' variant='outline-primary'>Download Resume</Button> */}
                             {/* <Button className='shadow text-capitalize' variant='outline-primary'>Contact Me</Button> */}
                         </div>
                     </div>
