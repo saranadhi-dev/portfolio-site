@@ -8,7 +8,8 @@ function Blogs() {
             id: 1,
             title: 'Cryptography',
             description: 'Learn how cryptography enables secure communication by converting plain text into unreadable cipher text.',
-            link: "https://github.com/saranadhi-dev/crypto-graphic"
+            git_link: "https://github.com/saranadhi-dev/crypto-graphic",
+            post_link:"/blogs/cryptography"
         },
 
     ];
@@ -25,12 +26,12 @@ function Blogs() {
                             {/* <span className="read-more">
                                 Read More <i className="bi bi-arrow-right"></i>
                             </span> */}
-                            {/* <Link to={blog.link} className="read-more">
+                            <Link to={blog.post_link} className="read-more">
                                 Read More <i className="bi bi-arrow-right"></i>
-                            </Link> */}
-                            <a href={blog.link} target="_blank" rel="noopener noreferrer" className="read-more">
+                            </Link>
+                            {/* <a href={blog.link} target="_blank" rel="noopener noreferrer" className="read-more">
                                 Read More <i className="bi bi-arrow-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                     ))}
                 </div>

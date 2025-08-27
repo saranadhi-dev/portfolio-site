@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 
 function Header() {
     return (
-        <header className='pt-5' id='header'>
+        <header className='pt-5' id='home'>
             <div className='container py-md-5'>
                 <div className='row'>
                     <div className='col-md-6 d-flex flex-column align-items-start justify-content-center mt-5 mt-md-0'>

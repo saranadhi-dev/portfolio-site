@@ -140,3 +140,10 @@
 .read-more:hover {
   transform: translateX(5px);
 }
+
+.markdown-container{
+  margin: 120px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
